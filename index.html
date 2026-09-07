@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Profile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="img/jpg" href="/img/images.jpg">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="img/images.jpg" alt="logo" height="50px">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+            </nav>
+        </header>
+
+        <main>
+            <hr>
+            <section id="home">
+                <h2>Introduction</h2>
+                <div id="intro1">
+                    <p>Hi, I'm Khoi - an IT student </p>
+                    <p>I am learning Cybersecurity and Software Development</p>
+                    <a href="#projects"
+                        style="border-style: solid; border-radius: 10px; background-color:aquamarine;">View
+                        my Projects</a>
+                    <a href="#contact"
+                        style="border: solid; border-radius: 10px; background-color: darkkhaki;">Contact
+                        me</a>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>
+                    About Me
+                </h2>
+                <div id="about-pic">
+                    <img src="img/logo.jpg" alt="about_pic"
+                        height=200px>
+                    <div id="bio">
+                        <p>I'm an IT student currently studying Computer
+                            Science.</p>
+                        <p>I enjoy programming and I'm interested in
+                            cybersecurity.</p>
+                        <p>Currently learning: C++, HTML, CSS, Linux...</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>
+                    My Skills
+                </h2>
+                <div class="skill-container">
+                    <article class="skill-box">
+                        <h3>HTML</h3>
+                        <p>Sementic HTML5</p>
+                    </article>
+
+                    <article class="skill-box">
+                        <h3>CSS</h3>
+                        <p>Flexbox, Grid, Responsive</p>
+                    </article>
+
+                    <article class="skill-box">
+                        <h3>C++</h3>
+                        <p>Pointer, Linked List, Tree, Memory management</p>
+                    </article>
+
+                    <article class="skill-box">
+                        <h3>Linux</h3>
+                        <p>File handle, User management</p>
+                    </article>
+
+                    <article class="skill-box">
+                        <h3>Git</h3>
+                        <p>Commit, push, pull, create and merge branch</p>
+                    </article>
+
+                    <article class="skill-box">
+                        <h3>Java</h3>
+                        <p>OOP, DSA, framework: Spring boot</p>
+                    </article>
+                </div>
+
+            </section>
+
+            <section id="projects">
+                <h2>My Projetcs</h2>
+                <div class="project-container">
+                    <article class="project-box">
+                        <img src="img/goride.png" alt="goRide" height="260">
+                        <h3>GoRide project</h3>
+                        <p>Build by C++ and Qt GUI</p>
+                        <a href="https://github.com/masterpham07/GoRide"
+                            target="_blank" class="view">View project</a>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="/img/hotelProject.jpg" alt="hotel"
+                            height="300" width="500">
+                        <h3>Hotel Management Project</h3>
+                        <p>Build by C as a console app</p>
+                        <a
+                            href="https://github.com/QLKS-UTC2-IT-K66/Project-Group9"
+                            target="_blank" class="view">View project</a>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="/img/snake.png" alt="snake">
+                        <h3>Snake Game</h3>
+                        <p>Build by C</p>
+                        <a
+                            href="https://github.com/TranMinhKhoi2007/Snake_Game_C_Programming"
+                            target="_blank" class="view">View project</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <article>
+                    <div id="contact-info">
+                        Email: <a
+                            href="mailto:trankenny062007@gmail.com">trankenny062007@gmail.com</a><br>
+                        Github: <a
+                            href="https://github.com/TranMinhKhoi2007"
+                            target="_blank">TranMinhKhoi2007</a>
+                    </div>
+
+                    <div id="contact-form">
+                        <form>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required><br>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email"
+                                placeholder="khoi123@gmail.com"
+                                required><br>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" cols="18"
+                                rows="5"></textarea><br>
+
+                            <input type="reset"
+                                style="border-radius: 10px;">
+                            <button type="submit"
+                                style="border-radius: 10px;">Send
+                                message</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <hr>
+            <p>&copy; 2026 Khôi</p>
+            <div id="contact2">
+                <a href="https://github.com/TranMinhKhoi2007">GitHub</a>
+                <a
+                    href="https://www.linkedin.com/in/tr%E1%BA%A7n-kh%C3%B4i-7461343a8/">LikedIn</a>
+                <a
+                    href="https://www.facebook.com/profile.php?id=61590222036968">Facebook</a>
+            </div>
+            <hr>
+        </footer>
+    </body>
+</html>

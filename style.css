@@ -1,0 +1,125 @@
+body{
+    background-color:antiquewhite;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: rgb(146, 201, 249);
+
+}
+
+h2{
+    color: rgb(234, 75, 75);
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+#intro1{
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    border-style: solid;
+    background-color: burlywood;
+    width: 500px;
+    height: 130px;
+    border-radius: 10px;
+    border-color:darkblue;
+    box-shadow: 10px 10px 10px rgb(213, 71, 71);
+}
+
+#about-pic{
+    display: flex;
+    gap: 30px;
+    border-style: groove;
+    width: 700px;
+    background-color: rgb(57, 56, 56);
+    color:white;
+    border-radius: 5px;
+}
+#bio{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*fr = fraction, tức là 1 phần của không gian còn lại trong container*/
+    gap: 20px;
+    padding:10px;
+    place-items: center;
+}
+.skill-box{
+    border-style: solid;
+    box-sizing: border-box;
+    width: 250px;
+    border-radius:10px;
+    height:fit-content;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 10px black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: oblique;
+    color: darkblue;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    gap:30px;
+}
+.project-box{
+    border-style: solid;
+    height:fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:aliceblue;
+    font-family:monospace;
+    box-shadow: 15px 15px 10px ;
+}
+.view{
+    border-style: solid;
+    border-radius: 10px;
+    font-style: italic;
+    background-color: darkgrey;
+    color: black;
+}
+
+#contact-info{
+    border-style: solid;
+    width: fit-content;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+#contact-form{
+    border-style: solid;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(226, 198, 218);
+}
+
+footer{
+    background-color: aliceblue;
+    place-items: center;
+}
+
+#contact2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:30px;
+    font-family: monospace;
+}
