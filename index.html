@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Cá Nhân - Trần Minh Khôi | Front-End Developer</title>
+    <title>Trần Minh Khôi | Cybersecurity Student</title>
     <!-- Font chữ Google Fonts: Plus Jakarta Sans (tiêu đề, hỗ trợ chuẩn 100% tiếng Việt) + Inter (nội dung) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,9 +37,9 @@
       <div class="header-container">
         <!-- Logo cá nhân -->
         <a href="#home" class="logo">
-          <span class="logo-accent">&lt;</span><span class="logo-minh">Minh</span><span class="logo-khoi">Khoi</span>
-          <span
-            class="logo-accent">.Dev /&gt;</span>
+          <span class="logo-accent">&lt;</span><span
+            class="logo-name">MinhKhoi.Dev</span><span
+            class="logo-accent">&nbsp;/&gt;</span>
         </a>
 
         <!-- CSS Checkbox Hack: Checkbox ẩn để điều khiển toggle menu trên mobile -->
@@ -57,8 +57,8 @@
             <!-- Nút toggle Dark/Light mode nằm bên trái nút Home -->
             <li class="nav-item nav-theme-item">
               <button type="button" id="theme-toggle" class="theme-toggle-btn"
-                aria-label="Chuyển đổi giao diện Sáng / Tối"
-                title="Chuyển đổi giao diện Sáng / Tối">
+                aria-label="Toggle Light / Dark Mode"
+                title="Toggle Light / Dark Mode">
                 <span class="theme-toggle-track">
                   <span class="theme-toggle-thumb"></span>
                   <span class="theme-icon-wrapper sun-wrapper">
@@ -102,17 +102,17 @@
             <h1 class="hero-title">
               Trần Minh Khôi
             </h1>
-            <h2 class="hero-subtitle">Sinh viên CNTT / Front-End Developer</h2>
+            <h2 class="hero-subtitle">IT Student | Cybersecurity Enthusiast</h2>
             <p class="hero-slogan">
-              Đam mê kiến tạo những giao diện web hiện đại, tinh gọn và tối ưu
-              trải nghiệm người dùng với sức mạnh thuần túy của chuẩn web HTML5
-              &amp; CSS3.
+              A second-year IT student building foundational knowledge in
+              cybersecurity, exploring computer networks, operating systems, and
+              secure programming principles.
             </p>
 
             <!-- 2 nút CTA (Call-To-Action) -->
             <div class="hero-cta-group">
-              <a href="#projects" class="btn btn-primary">Xem Projects</a>
-              <a href="#contact" class="btn btn-outline">Liên hệ với tôi</a>
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
             </div>
           </div>
 
@@ -120,7 +120,7 @@
           <div class="hero-avatar-wrapper">
             <div class="avatar-glow-ring">
               <div class="avatar-frame">
-                <img src="images/avatar.jpg" alt="Chân dung Trần Minh Khôi"
+                <img src="images/avatar.jpg" alt="Portrait of Trần Minh Khôi"
                   class="avatar-img"
                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <!-- Fallback placeholder hiển thị khi chưa có file ảnh -->
@@ -130,7 +130,7 @@
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg>
-                  <span>Chèn ảnh avatar.jpg</span>
+                  <span>Insert avatar.jpg</span>
                 </div>
               </div>
             </div>
@@ -147,16 +147,16 @@
       <section id="about" class="about-section">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title">Về Bản Thân</h2>
-            <p class="section-subtitle">Câu chuyện học tập, đam mê lập trình và
-              mục tiêu nghề nghiệp</p>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">My academic journey, passion for
+              technology, and career aspirations</p>
           </div>
 
           <div class="about-grid">
             <!-- Cột ảnh minh họa học tập / làm việc -->
             <div class="about-image-wrapper">
               <div class="about-image-card">
-                <img src="images/about.jpg" alt="Ảnh làm việc học tập"
+                <img src="images/about.jpg" alt="Study and workspace photo"
                   class="about-img"
                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <!-- Fallback khi chưa có file ảnh -->
@@ -168,63 +168,68 @@
                     <line x1="8" y1="21" x2="16" y2="21"></line>
                     <line x1="12" y1="17" x2="12" y2="21"></line>
                   </svg>
-                  <span>Chèn ảnh about.jpg</span>
+                  <span>Insert about.jpg</span>
                 </div>
                 <div class="about-badge-exp">
                   <span class="exp-number">01+</span>
-                  <span class="exp-text">Năm tự học &amp; thực hành Code</span>
+                  <span class="exp-text">Year of Self-Study &amp; Hands-on
+                    Practice</span>
                 </div>
               </div>
             </div>
 
             <!-- Cột nội dung văn bản sử dụng kỹ thuật CSS Multiple Columns -->
             <div class="about-text-wrapper">
-              <h3 class="about-heading">Lập trình viên giao diện tương lai hướng
-                tới sự hoàn mỹ</h3>
+              <h3 class="about-heading">Building My Foundation in
+                Cybersecurity</h3>
 
               <!-- Áp dụng CSS Multiple Columns: column-count: 2 trên desktop -->
               <div class="about-columns-text">
                 <p>
-                  Xin chào! Tôi là một sinh viên chuyên ngành Công nghệ Thông
-                  tin tràn đầy nhiệt huyết với việc tạo ra những trang web sống
-                  động và thân thiện với người dùng. Hành trình của tôi bắt đầu
-                  từ sự tò mò về cách các trang web hoạt động phía sau màn hình
-                  trình duyệt.
+                  Hello! I am a second-year Information Technology student with
+                  a growing passion for cybersecurity and computer systems. My
+                  journey began with a genuine curiosity about how software,
+                  operating systems, and networks operate beneath the surface,
+                  which naturally evolved into a focus on how systems can be
+                  protected and made resilient against vulnerabilities.
                 </p>
                 <p>
-                  Tôi đặc biệt say mê việc khám phá những giới hạn của HTML5 ngữ
-                  nghĩa và CSS3 hiện đại. Tôi tin rằng với sự thành thạo về
-                  Flexbox, CSS Grid, 3D Transforms và các pseudo-classes, chúng
-                  ta có thể tạo ra những trải nghiệm mượt mà đáng kinh ngạc ngay
-                  cả khi không phụ thuộc vào các thư viện JavaScript cồng kềnh.
+                  Currently, I am actively building my foundational knowledge
+                  across essential areas of cybersecurity. I focus on computer
+                  networking protocols, Linux environments, operating system
+                  internals, security fundamentals, and structured programming
+                  principles in C and C++.
                 </p>
                 <p>
-                  Ngoài giờ học lý thuyết trên trường, tôi luôn dành thời gian
-                  thực hành xây dựng các sản phẩm thực tế, tối ưu hóa hiệu năng
-                  render trang web, tìm hiểu sâu về chuẩn Web Accessibility
-                  (a11y) và Responsive Web Design trên đa dạng kích thước màn
-                  hình.
+                  Alongside my university coursework, I dedicate time to
+                  self-study, practical lab exercises, and hands-on programming
+                  projects. I strongly believe in learning by doing—analyzing
+                  system behaviors, practicing problem-solving, and writing
+                  clean, disciplined code to understand how vulnerabilities
+                  emerge and how to prevent them.
                 </p>
                 <p>
-                  Mục tiêu trước mắt của tôi là trở thành một Front-End Web
-                  Developer chuyên nghiệp, có thể đóng góp năng lực vào các dự
-                  án quy mô lớn, đồng thời không ngừng cập nhật các công nghệ
-                  tiên tiến nhất của hệ sinh thái web hiện đại.
+                  My goal is to continuously strengthen my technical foundation
+                  and practical capabilities. Looking forward, I am eager to
+                  pursue an internship or entry-level opportunity in
+                  cybersecurity where I can learn from experienced
+                  professionals, tackle real-world challenges, and contribute
+                  effectively.
                 </p>
               </div>
 
               <!-- Khung trích dẫn tâm đắc (dùng CSS pseudo-element ::before) -->
               <blockquote class="about-quote">
-                "Giao diện tốt không chỉ đẹp mắt, mà còn phải nhanh, nhẹ và trao cho người dùng cảm giác tương tác tự nhiên nhất."
+                "Understanding how systems work from the inside out is the first essential step toward protecting them."
               </blockquote>
 
               <!-- Thông tin tóm tắt nhanh -->
               <ul class="about-info-list">
-                <li><strong>Họ và tên:</strong> Trần Minh Khôi</li>
-                <li><strong>Chuyên ngành:</strong> Công nghệ Thông tin</li>
-                <li><strong>Định hướng:</strong> Front-End Developer</li>
-                <li><strong>Trạng thái:</strong> Sẵn sàng thực tập / Nhận dự
-                  án</li>
+                <li><strong>Full Name:</strong> Trần Minh Khôi</li>
+                <li><strong>Major:</strong> Information Technology</li>
+                <li><strong>Career Focus:</strong> Cybersecurity</li>
+                <li><strong>Status:</strong> Open to Internships / Learning
+                  Opportunities</li>
               </ul>
             </div>
           </div>
@@ -240,29 +245,35 @@
       <section id="skills" class="skills-section">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title">Kỹ Năng Chuyên Môn</h2>
-            <p class="section-subtitle">Các công nghệ và kỹ năng tôi đã trau dồi
-              qua quá trình học tập</p>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Core competencies and technical
+              foundations developed through coursework and self-study</p>
           </div>
 
           <div class="skills-grid">
-            <!-- Skill Card 1: HTML5 Semantics -->
+            <!-- Skill Card 1: Cybersecurity Fundamentals -->
             <article class="skill-card">
               <div class="skill-icon-box">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
-                  <path d="M4 3h16l-1.5 16.5L12 22l-6.5-2.5L4 3z"></path>
+                  <!-- Khiên -->
                   <path
-                    d="M7.5 7.5h9l-.5 5H8l.2 3.2L12 17l3.8-1.3.3-3.2"></path>
+                    d="M12 2L4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3z"></path>
+                  <!-- Thân ổ khóa -->
+                  <rect x="8.5" y="11" width="7" height="5.5" rx="1"></rect>
+                  <!-- Quai ổ khóa -->
+                  <path d="M10 11V9.5a2 2 0 0 1 4 0V11"></path>
                 </svg>
               </div>
-              <h3 class="skill-name">HTML5 Ngữ Nghĩa</h3>
-              <p class="skill-desc">Cấu trúc web chuẩn semantic (header, nav,
-                article, section, footer), form controls chuẩn, hỗ trợ SEO và
-                Accessibility.</p>
+              <h3 class="skill-name">Cybersecurity Fundamentals</h3>
+              <p class="skill-desc">Foundational concepts in information
+                security
+                (CIA triad), security principles, understanding common
+                vulnerabilities,
+                and defensive basics.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">95%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -271,7 +282,7 @@
               </div>
             </article>
 
-            <!-- Skill Card 2: CSS3 & Modern Styling -->
+            <!-- Skill Card 2: C / C++ Programming Fundamentals -->
             <article class="skill-card">
               <div class="skill-icon-box">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -281,13 +292,13 @@
                     d="M16 7.5H8l.4 4.5h7.2l-.6 6L12 19.3l-2.6-1.3-.2-2.2"></path>
                 </svg>
               </div>
-              <h3 class="skill-name">CSS3 &amp; 3D Transform</h3>
-              <p class="skill-desc">Flexbox, CSS Grid, 2D/3D Transforms,
-                Transition, Keyframe Animations, Pseudo-classes nâng cao,
-                Variables.</p>
+              <h3 class="skill-name">C / C++ Programming Fundamentals</h3>
+              <p class="skill-desc">Core programming foundations: memory
+                management, pointers, file I/O, linked lists, and structured
+                object-oriented programming.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">90%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -296,22 +307,22 @@
               </div>
             </article>
 
-            <!-- Skill Card 3: Responsive Web Design -->
+            <!-- Skill Card 3: Linux and Command Line -->
             <article class="skill-card">
               <div class="skill-icon-box">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
-                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                  <line x1="8" y1="21" x2="16" y2="21"></line>
-                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <h3 class="skill-name">Responsive Design</h3>
-              <p class="skill-desc">Media Queries linh hoạt cho Mobile, Tablet,
-                Desktop. Tư duy thiết kế Mobile-First và fluid typography.</p>
+              <h3 class="skill-name">Linux &amp; Command Line</h3>
+              <p class="skill-desc">Command-line navigation, Linux environment
+                utilities, basic shell scripting, user permissions, and
+                directory structure management.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">88%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -320,7 +331,7 @@
               </div>
             </article>
 
-            <!-- Skill Card 4: UI/UX & Layout Design -->
+            <!-- Skill Card 4: Computer Networks -->
             <article class="skill-card">
               <div class="skill-icon-box">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -331,13 +342,13 @@
                   <path d="M2 12h20"></path>
                 </svg>
               </div>
-              <h3 class="skill-name">UI / UX Design</h3>
-              <p class="skill-desc">Tổ chức phân cấp thị giác (visual
-                hierarchy), phối màu sắc tương phản cao, typography hài hòa và
-                trải nghiệm tương tác.</p>
+              <h3 class="skill-name">Computer Networks</h3>
+              <p class="skill-desc">Understanding networking foundations: OSI
+                and TCP/IP models, IP addressing, DNS, HTTP/HTTPS protocols,
+                and packet transmission.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">82%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -357,12 +368,13 @@
                   <path d="M18 9a9 9 0 0 0-9 9"></path>
                 </svg>
               </div>
-              <h3 class="skill-name">Git &amp; GitHub</h3>
-              <p class="skill-desc">Quản lý mã nguồn, branch workflow, commit
-                quy chuẩn, xuất bản dự án lên GitHub Pages hoặc Vercel.</p>
+              <h3 class="skill-name">Git &amp; Version Control</h3>
+              <p class="skill-desc">Source code versioning, branch management,
+                clean commit conventions, and repository collaboration via
+                GitHub.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">80%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -371,22 +383,27 @@
               </div>
             </article>
 
-            <!-- Skill Card 6: Clean Code & Optimization -->
+            <!-- Skill Card 6: Problem Solving and Algorithms -->
             <article class="skill-card">
               <div class="skill-icon-box">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
-                  <polyline points="16 18 22 12 16 6"></polyline>
-                  <polyline points="8 6 2 12 8 18"></polyline>
+                  <!-- Nút gốc: vấn đề cần giải quyết -->
+                  <rect x="9" y="2" width="6" height="5" rx="1"></rect>
+                  <!-- Đường rẽ nhánh -->
+                  <path d="M12 7v4M6 11h12M6 11v3M18 11v3"></path>
+                  <!-- Hai nút con: các bước / giải pháp -->
+                  <rect x="3" y="14" width="6" height="6" rx="1"></rect>
+                  <rect x="15" y="14" width="6" height="6" rx="1"></rect>
                 </svg>
               </div>
-              <h3 class="skill-name">Web Performance</h3>
-              <p class="skill-desc">Tối ưu CSS selectors, giảm thiểu
-                reflow/repaint, khai thác GPU acceleration với transform 3D,
-                code sạch và dễ bảo trì.</p>
+              <h3 class="skill-name">Problem Solving &amp; Algorithms</h3>
+              <p class="skill-desc">Applying fundamental data structures,
+                algorithmic logic (BFS, search and sorting methods), and
+                structured analytical thinking.</p>
               <div class="skill-bar-container">
                 <div class="skill-bar-info">
-                  <span>Mức độ thành thạo</span>
+                  <span>Proficiency</span>
                   <span class="skill-percent">85%</span>
                 </div>
                 <div class="skill-bar-track">
@@ -410,9 +427,9 @@
       <section id="projects" class="projects-section">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title">Dự Án Nổi Bật</h2>
-            <p class="section-subtitle">Di chuột vào thẻ để lật xem chi tiết kỹ
-              thuật và đường dẫn dự án</p>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Hover over cards to view technical
+              details and project links</p>
           </div>
 
           <div class="projects-grid">
@@ -424,7 +441,7 @@
                   <div class="project-thumb-box">
                     <!-- [CHỖ TRỐNG CHÈN ẢNH: Screenshot Project 1] -->
                     <img src="images/project-1.jpg"
-                      alt="Dự án Website Portfolio" class="project-thumb-img"
+                      alt="Portfolio Website Project" class="project-thumb-img"
                       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="thumb-placeholder p1-bg" style="display:none;">
                       <span>Project 1 Preview</span>
@@ -433,9 +450,10 @@
                   </div>
                   <div class="project-front-info">
                     <h3 class="project-title">Personal Portfolio Website</h3>
-                    <p class="project-short-desc">Trang giới thiệu cá nhân thiết
-                      kế chuẩn responsive, sử dụng 100% HTML5 &amp; CSS3 thuần
-                      không dùng JavaScript.</p>
+                    <p class="project-short-desc">A responsive personal
+                      portfolio
+                      website crafted with pure semantic HTML5 and modern CSS3,
+                      focusing on clean structure and accessible design.</p>
                     <div class="tech-tags">
                       <span class="tag">HTML5</span>
                       <span class="tag">CSS3</span>
@@ -444,7 +462,7 @@
                     </div>
                   </div>
                   <div class="flip-hint">
-                    <span>Hover để xem chi tiết &xrarr;</span>
+                    <span>Hover to view details &xrarr;</span>
                   </div>
                 </div>
 
@@ -452,19 +470,20 @@
                 <div class="flip-card-back">
                   <h3 class="back-title">Personal Portfolio</h3>
                   <p class="back-desc">
-                    Dự án showcase kỹ thuật lập trình giao diện không phụ thuộc
-                    framework:
+                    A showcase of core web layout and styling techniques without
+                    external frameworks:
                   </p>
                   <ul class="back-features">
-                    <li>Hiệu ứng 3D Flip Card với backface-visibility</li>
-                    <li>Mobile menu toggle qua CSS Checkbox Hack</li>
-                    <li>Multi-column text layout cho nội dung</li>
-                    <li>Form kiểm tra dữ liệu bằng :valid / :invalid</li>
+                    <li>3D Flip Card effect using CSS backface-visibility</li>
+                    <li>Mobile menu toggle via CSS Checkbox Hack</li>
+                    <li>Multi-column text layout for readable content</li>
+                    <li>Native client-side form validation with :valid /
+                      :invalid</li>
                   </ul>
                   <div class="back-actions">
-                    <a href="#home" class="btn-card-link">Trải nghiệm ngay</a>
+                    <a href="#home" class="btn-card-link">Explore Project</a>
                     <a href="https://github.com" target="_blank" rel="noopener"
-                      class="btn-card-link outline">Mã nguồn GitHub</a>
+                      class="btn-card-link outline">GitHub Source</a>
                   </div>
                 </div>
               </div>
@@ -478,7 +497,7 @@
                   <div class="project-thumb-box">
                     <!-- [CHỖ TRỐNG CHÈN ẢNH: Screenshot Project 2] -->
                     <img src="images/project-2.jpg"
-                      alt="Dự án E-Commerce Landing" class="project-thumb-img"
+                      alt="E-Commerce Landing Project" class="project-thumb-img"
                       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="thumb-placeholder p2-bg" style="display:none;">
                       <span>Project 2 Preview</span>
@@ -487,9 +506,9 @@
                   </div>
                   <div class="project-front-info">
                     <h3 class="project-title">Tech Store Showcase</h3>
-                    <p class="project-short-desc">Giao diện cửa hàng thiết bị
-                      công nghệ hiện đại với CSS Grid nâng cao, bộ lọc danh mục
-                      và giỏ hàng mini.</p>
+                    <p class="project-short-desc">A modern technology storefront
+                      interface featuring advanced CSS Grid layouts, product
+                      categorization, and interactive UI components.</p>
                     <div class="tech-tags">
                       <span class="tag">CSS Grid</span>
                       <span class="tag">Flexbox</span>
@@ -498,7 +517,7 @@
                     </div>
                   </div>
                   <div class="flip-hint">
-                    <span>Hover để xem chi tiết &xrarr;</span>
+                    <span>Hover to view details &xrarr;</span>
                   </div>
                 </div>
 
@@ -506,19 +525,20 @@
                 <div class="flip-card-back">
                   <h3 class="back-title">Tech Store Showcase</h3>
                   <p class="back-desc">
-                    Trang thương mại điện tử chuyên nghiệp mô phỏng gian hàng
-                    thiết bị:
+                    An e-commerce landing page simulating a tech retail
+                    storefront:
                   </p>
                   <ul class="back-features">
-                    <li>Bố cục lưới CSS Grid co giãn thông minh</li>
-                    <li>Hiệu ứng zoom ảnh sản phẩm khi hover mượt mà</li>
-                    <li>Huy hiệu giảm giá và xếp hạng sao đánh giá</li>
-                    <li>Độ tương thích tối ưu trên mọi màn hình</li>
+                    <li>Flexible, responsive CSS Grid layout structure</li>
+                    <li>Smooth hover zoom transitions on product showcases</li>
+                    <li>Discount badges and product rating components</li>
+                    <li>Optimized responsiveness across various display
+                      sizes</li>
                   </ul>
                   <div class="back-actions">
-                    <a href="#projects" class="btn-card-link">Xem Demo</a>
+                    <a href="#projects" class="btn-card-link">View Demo</a>
                     <a href="https://github.com" target="_blank" rel="noopener"
-                      class="btn-card-link outline">Mã nguồn GitHub</a>
+                      class="btn-card-link outline">GitHub Source</a>
                   </div>
                 </div>
               </div>
@@ -532,7 +552,7 @@
                   <div class="project-thumb-box">
                     <!-- [CHỖ TRỐNG CHÈN ẢNH: Screenshot Project 3] -->
                     <img src="images/project-3.jpg"
-                      alt="Dự án quản lý khách sạn" class="project-thumb-img"
+                      alt="Hotel Management Project" class="project-thumb-img"
                       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="thumb-placeholder p3-bg" style="display:none;">
                       <span>Project 3 Preview</span>
@@ -541,9 +561,10 @@
                   </div>
                   <div class="project-front-info">
                     <h3 class="project-title">Hotel Management</h3>
-                    <p class="project-short-desc">Dự án xây dựng một phần mềm
-                      quản lý khách sạn chạy trên giao diện dòng lệnh (CLI) bằng
-                      ngôn ngữ C.</p>
+                    <p class="project-short-desc">A command-line hotel
+                      management
+                      application in C featuring file persistence, linked lists,
+                      modular architecture, and structured data handling.</p>
                     <div class="tech-tags">
                       <span class="tag">File Handling</span>
                       <span class="tag">Function & Module</span>
@@ -551,7 +572,7 @@
                     </div>
                   </div>
                   <div class="flip-hint">
-                    <span>Hover để xem chi tiết &xrarr;</span>
+                    <span>Hover to view details &xrarr;</span>
                   </div>
                 </div>
 
@@ -559,22 +580,22 @@
                 <div class="flip-card-back">
                   <h3 class="back-title">Hotel Management</h3>
                   <p class="back-desc">
-                    Console app quản lý khách sạn lập trình bằng ngôn ngữ C:
+                    A modular console management system developed in C:
                   </p>
                   <ul class="back-features">
-                    <li>Quản lý phòng (Room Management)</li>
-                    <li>Quản lý đặt phòng (Booking Management)</li>
-                    <li>Quản lý dịch vụ (Service Management)</li>
-                    <li>Quản lý thành viên (Membership)</li>
-                    <li>Lưu trữ dữ liệu bền vững</li>
+                    <li>Room management and availability tracking</li>
+                    <li>Booking and reservation processing</li>
+                    <li>Service management and billing calculation</li>
+                    <li>Customer and membership record handling</li>
+                    <li>Persistent data storage with C file I/O</li>
                   </ul>
                   <div class="back-actions">
                     <a
                       href="https://www.tiktok.com/@toshi1475/video/7639976554700852487"
-                      target="_blank" class="btn-card-link">Xem Demo</a>
+                      target="_blank" class="btn-card-link">View Demo</a>
                     <a href="https://github.com/QLKS-UTC2-IT-K66/Project-Group9"
                       target="_blank" rel="noopener"
-                      class="btn-card-link outline">Mã nguồn GitHub</a>
+                      class="btn-card-link outline">GitHub Source</a>
                   </div>
                 </div>
               </div>
@@ -587,7 +608,8 @@
                 <div class="flip-card-front">
                   <div class="project-thumb-box">
                     <!-- [CHỖ TRỐNG CHÈN ẢNH: Screenshot Project 4] -->
-                    <img src="images/project-4.png" alt="Go Ride app đặt xe"
+                    <img src="images/project-4.png"
+                      alt="Go Ride Ride-Hailing App"
                       class="project-thumb-img"
                       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="thumb-placeholder p4-bg" style="display:none;">
@@ -597,9 +619,9 @@
                   </div>
                   <div class="project-front-info">
                     <h3 class="project-title">Go Ride</h3>
-                    <p class="project-short-desc">Go Ride mô phỏng quy trình
-                      hoạt động của một nền tảng đặt xe công nghệ như Grab, Be
-                      hoặc Gojek.</p>
+                    <p class="project-short-desc">A desktop application
+                      simulating a ride-hailing platform, built with C++ and Qt
+                      Widgets utilizing BFS pathfinding and OOP principles.</p>
                     <div class="tech-tags">
                       <span class="tag">BFS Algorithm</span>
                       <span class="tag">Object Oriented Programming</span>
@@ -608,7 +630,7 @@
                     </div>
                   </div>
                   <div class="flip-hint">
-                    <span>Hover để xem chi tiết &xrarr;</span>
+                    <span>Hover to view details &xrarr;</span>
                   </div>
                 </div>
 
@@ -616,22 +638,22 @@
                 <div class="flip-card-back">
                   <h3 class="back-title">Go Ride</h3>
                   <p class="back-desc">
-                    Ứng dụng mô phỏng đặt xe hiện đại:
+                    A comprehensive ride-hailing simulation application in C++:
                   </p>
                   <ul class="back-features">
-                    <li>Giao diện đồ họa bằng Qt Widgets</li>
-                    <li>Bản đồ dạng lưới tương tác</li>
-                    <li>Đặt xe và ghép tài xế</li>
-                    <li>Lưu lịch sử chuyến đi</li>
-                    <li>Tính giá cước và thanh toán</li>
+                    <li>Interactive GUI developed with Qt Widgets</li>
+                    <li>Grid-based map with BFS pathfinding algorithms</li>
+                    <li>Ride booking and driver matching logic</li>
+                    <li>Trip history tracking and state persistence</li>
+                    <li>Dynamic fare calculation and payment estimation</li>
                   </ul>
                   <div class="back-actions">
                     <a
                       href="https://www.tiktok.com/@toshi1475/video/7670001961789345044"
-                      target="_blank" class="btn-card-link">Xem Demo</a>
+                      target="_blank" class="btn-card-link">View Demo</a>
                     <a href="https://github.com/masterpham07/GoRide"
                       target="_blank" rel="noopener"
-                      class="btn-card-link outline">Mã nguồn GitHub</a>
+                      class="btn-card-link outline">GitHub Source</a>
                   </div>
                 </div>
               </div>
@@ -653,18 +675,20 @@
       <section id="contact" class="contact-section">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title">Liên Hệ</h2>
-            <p class="section-subtitle">Hãy gửi cho tôi một lời nhắn hoặc kết
-              nối qua các mạng xã hội</p>
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Feel free to reach out for learning
+              opportunities, academic projects, or networking</p>
           </div>
 
           <div class="contact-wrapper">
             <!-- Cột thông tin liên hệ bên trái -->
             <div class="contact-info-panel">
-              <h3 class="info-title">Thông Tin Kết Nối</h3>
+              <h3 class="info-title">Get In Touch</h3>
               <p class="info-desc">
-                Tôi luôn cởi mở đón nhận các cơ hội thực tập, dự án tự do hoặc
-                trao đổi kiến thức công nghệ. Đừng ngần ngại liên hệ nhé!
+                I am always open to internship opportunities, student projects,
+                technical discussions, and collaborative learning in
+                cybersecurity.
+                Feel free to connect!
               </p>
 
               <div class="contact-detail-items">
@@ -678,8 +702,8 @@
                     </svg>
                   </div>
                   <div>
-                    <span class="detail-label">Địa chỉ:</span>
-                    <p class="detail-val">TP. Hồ Chí Minh, Việt Nam</p>
+                    <span class="detail-label">Location:</span>
+                    <p class="detail-val">Ho Chi Minh City, Vietnam</p>
                   </div>
                 </div>
 
@@ -707,7 +731,7 @@
                     </svg>
                   </div>
                   <div>
-                    <span class="detail-label">Điện thoại:</span>
+                    <span class="detail-label">Phone:</span>
                     <p class="detail-val">+84 987 654 321</p>
                   </div>
                 </div>
@@ -715,7 +739,7 @@
 
               <!-- Các kênh mạng xã hội (SVG inline) -->
               <div class="social-channels">
-                <span class="social-title">Theo dõi tôi:</span>
+                <span class="social-title">Follow Me:</span>
                 <div class="social-links-grid">
                   <!-- GitHub -->
                   <a href="https://github.com/TranMinhKhoi2007" target="_blank"
@@ -755,23 +779,23 @@
             <!-- Form liên hệ thuần HTML5 & CSS3 -->
             <form class="contact-form" action="#" method="POST">
               <div class="form-group">
-                <label for="contact-name" class="form-label">Họ và tên <span
+                <label for="contact-name" class="form-label">Full Name <span
                     class="required-star">*</span></label>
                 <input
                   type="text"
                   id="contact-name"
                   name="name"
                   class="form-input"
-                  placeholder="Nhập họ và tên của bạn..."
+                  placeholder="Enter your full name..."
                   required
                   minlength="2">
-                <span class="validation-msg valid-text">Họ tên hợp lệ!</span>
-                <span class="validation-msg invalid-text">Vui lòng nhập họ và
-                  tên (ít nhất 2 ký tự)</span>
+                <span class="validation-msg valid-text">Valid full name!</span>
+                <span class="validation-msg invalid-text">Please enter your full
+                  name (at least 2 characters)</span>
               </div>
 
               <div class="form-group">
-                <label for="contact-email" class="form-label">Địa chỉ Email
+                <label for="contact-email" class="form-label">Email Address
                   <span class="required-star">*</span></label>
                 <input
                   type="email"
@@ -780,42 +804,42 @@
                   class="form-input"
                   placeholder="example@domain.com"
                   required>
-                <span class="validation-msg valid-text">Email đúng định
-                  dạng!</span>
-                <span class="validation-msg invalid-text">Vui lòng nhập đúng
-                  định dạng email (VD: abc@xyz.com)</span>
+                <span class="validation-msg valid-text">Valid email
+                  format!</span>
+                <span class="validation-msg invalid-text">Please enter a valid
+                  email address (e.g., abc@xyz.com)</span>
               </div>
 
               <div class="form-group">
-                <label for="contact-subject" class="form-label">Chủ đề tin
-                  nhắn</label>
+                <label for="contact-subject" class="form-label">Message
+                  Subject</label>
                 <input
                   type="text"
                   id="contact-subject"
                   name="subject"
                   class="form-input"
-                  placeholder="VD: Trao đổi về cơ hội việc làm...">
+                  placeholder="e.g., Inquiry regarding internship or collaboration...">
               </div>
 
               <div class="form-group">
-                <label for="contact-message" class="form-label">Nội dung tin
-                  nhắn <span class="required-star">*</span></label>
+                <label for="contact-message" class="form-label">Message <span
+                    class="required-star">*</span></label>
                 <!-- Thuộc tính resize: vertical trong CSS đảm bảo người dùng chỉ co giãn theo chiều dọc -->
                 <textarea
                   id="contact-message"
                   name="message"
                   class="form-textarea"
                   rows="5"
-                  placeholder="Nhập nội dung tin nhắn bạn muốn trao đổi..."
+                  placeholder="Enter your message here..."
                   required
                   minlength="10"></textarea>
-                <span class="validation-msg valid-text">Nội dung hợp lệ!</span>
-                <span class="validation-msg invalid-text">Nội dung cần có ít
-                  nhất 10 ký tự</span>
+                <span class="validation-msg valid-text">Valid message!</span>
+                <span class="validation-msg invalid-text">Message must be at
+                  least 10 characters long</span>
               </div>
 
               <button type="submit" class="btn btn-submit">
-                <span>Gửi Tin Nhắn</span>
+                <span>Send Message</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
                   <line x1="22" y1="2" x2="11" y2="13"></line>
@@ -837,12 +861,13 @@
       <div class="footer-container">
         <div class="footer-col-left">
           <a href="#home" class="footer-logo">&lt;MinhKhoi.Dev /&gt;</a>
-          <p class="footer-desc">Được xây dựng 100% bằng HTML5 &amp; CSS3 thuần.
-            Tối ưu hiệu năng, không phụ thuộc thư viện ngoài.</p>
+          <p class="footer-desc">Built 100% with pure HTML5 &amp; CSS3 and JS.
+            Optimized for performance with zero external library
+            dependencies.</p>
         </div>
 
         <div class="footer-col-nav">
-          <h4 class="footer-heading">Liên Kết Nhanh</h4>
+          <h4 class="footer-heading">Quick Links</h4>
           <ul class="footer-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
@@ -854,20 +879,19 @@
 
         <div class="footer-col-top">
           <!-- Nút Back to Top bằng Anchor Link thuần CSS -->
-          <a href="#home" class="btn-back-top" title="Cuộn lên đầu trang"
-            aria-label="Cuộn lên đầu trang">
+          <a href="#home" class="btn-back-top" title="Back to Top"
+            aria-label="Back to Top">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2.5">
               <polyline points="18 15 12 9 6 15"></polyline>
             </svg>
-            <span>Lên đầu trang</span>
+            <span>Back to Top</span>
           </a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Trần Minh Khôi. Tất cả quyền được bảo lưu. Thiết kế và
-          phát triển bằng HTML5 &amp; CSS3.</p>
+        <p>&copy; 2026 Trần Minh Khôi. All rights reserved.</p>
       </div>
     </footer>
 
