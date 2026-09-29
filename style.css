@@ -11,7 +11,6 @@
   --logo-accent: var(--gradient-brand);
   --flip-card-back: linear-gradient(145deg, #eef2f8 0%, #e2e9f3 100%);
   --logo-name: var(--text-main);
-  --about-quote: #2c3e5c;
 
   /* Màu chủ đạo & Gradient: tông xanh navy - xanh dương học thuật, điềm đạm, chuyên nghiệp */
   --accent-cyan: #2c5282;
@@ -727,7 +726,7 @@ ul {
   border-radius: 0 12px 12px 0;
   margin-bottom: 28px;
   font-style: italic;
-  color: var(--about-quote);
+  color: #2c3e5c;
   font-size: 1rem;
 }
 
@@ -1810,7 +1809,6 @@ body.dark-mode {
   --logo-accent:  linear-gradient(135deg, #67e8f9 0%, #38bdf8 100%);
   --flip-card-back: linear-gradient(145deg, #090f1d 0%, #04070e 100%);
   --logo-name: linear-gradient(135deg, #fefefe 0%, #ffffff 45%, #ec4899 80%, #ef4444 100%);
-  --about-quote: var(--text-main);
 
   --accent-cyan: #38bdf8;
   --accent-indigo: #60a5fa;
