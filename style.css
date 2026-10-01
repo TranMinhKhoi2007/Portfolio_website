@@ -11,6 +11,9 @@
   --logo-accent: var(--gradient-brand);
   --flip-card-back: linear-gradient(145deg, #eef2f8 0%, #e2e9f3 100%);
   --logo-name: var(--text-main);
+  --about-quote: #2c3e5c;
+  --contact-border: var(--accent-cyan);
+  --contact-border-outline:rgb(36, 36, 36);
 
   /* Màu chủ đạo & Gradient: tông xanh navy - xanh dương học thuật, điềm đạm, chuyên nghiệp */
   --accent-cyan: #2c5282;
@@ -502,11 +505,11 @@ ul {
 .btn-outline:not(.btn-primary) {
   background: transparent;
   color: var(--text-main);
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: var(--contact-border-outline);
 }
 
 .btn-outline:hover {
-  border-color: var(--accent-cyan);
+  border-color: var(--contact-border);
   color: var(--accent-cyan);
   background: rgba(91, 127, 146, 0.08);
   transform: translateY(-3px) scale(1.03);
@@ -726,7 +729,7 @@ ul {
   border-radius: 0 12px 12px 0;
   margin-bottom: 28px;
   font-style: italic;
-  color: #2c3e5c;
+  color: var(--about-quote);
   font-size: 1rem;
 }
 
@@ -1809,6 +1812,9 @@ body.dark-mode {
   --logo-accent:  linear-gradient(135deg, #67e8f9 0%, #38bdf8 100%);
   --flip-card-back: linear-gradient(145deg, #090f1d 0%, #04070e 100%);
   --logo-name: linear-gradient(135deg, #fefefe 0%, #ffffff 45%, #ec4899 80%, #ef4444 100%);
+  --about-quote: var(--text-main);
+  --contact-border: whitesmoke;
+  --contact-border-outline:whitesmoke ;
 
   --accent-cyan: #38bdf8;
   --accent-indigo: #60a5fa;
